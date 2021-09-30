@@ -85,6 +85,35 @@
       transform: rotate(25deg);
     }
 
+    .hand {
+      position: absolute;
+      bottom: 10px;
+      animation: move
+    }
+
+
+    @-webkit-keyframes move {
+      from {
+        left: -50px;
+      }
+
+      to {
+        left: 100%;
+      }
+    }
+
+    @keyframes handjob {
+      0% {
+        left: -50px;
+      }
+
+      100% {
+        left: 100%;
+      }
+
+    }
+
+
 
 
 
@@ -226,7 +255,9 @@
 <!-- <body background="./Pictures/FWM_Overlay.png"> -->
 <img src="Halloween-svg/bats.svg" class="Halloween bats" />
 <img src="Halloween-svg/Mushroom.svg" class="Halloween mushroom">
-<img src="Halloween-svg/scarecrow.svg" class="Halloween scarecrow" <div class="alerts" id="content"></div>
+<img src="Halloween-svg/scarecrow.svg" class="Halloween scarecrow">
+<a><img src="Halloween-svg/hand.svg" class="Halloween scarecrow"> </a>
+<div class="alerts" id="content"></div>
 <div id='divcontainer' class='grid-container'>
   <!-- <div id='div1'></div>
     <div id='div2'></div> -->
